@@ -1,0 +1,96 @@
+/* Global */
+
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #381212;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #ff6863;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #fff7d1;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+}
+
+.container1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+
+.container2 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+
+.self__introduction {
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #444444;
+  padding: 10px;
+}
+
+.index-rank {
+  width: 30px;
+}
+
+.button1,
+.button2 {
+  color: var(--color-blue);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.movie__name {
+  margin: auto;
+  font-size: var(--font-regular);
+  align-items: center;
+  font-weight: var(--weight-semi-bold);
+}
+
+.movie {
+  margin: auto;
+  border: 1px solid var(--color-dark-grey);
+  border-radius: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
